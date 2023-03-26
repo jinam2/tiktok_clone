@@ -15,6 +15,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   await Firebase.initializeApp(
+    name: "tiktok-abc-xyz-f5030",
     options: DefaultFirebaseOptions.currentPlatform,
   );
 

@@ -52,7 +52,7 @@ class SignUpScreen extends ConsumerWidget {
                 children: [
                   Gaps.v80,
                   const Text(
-                    "Sign up for TikTok",
+                    "키키틱톡 가입하기",
                     style: TextStyle(
                       fontSize: Sizes.size24,
                       fontWeight: FontWeight.w700,
@@ -75,7 +75,7 @@ class SignUpScreen extends ConsumerWidget {
                       onTap: () => _onEmailTap(context),
                       child: const AuthButton(
                         icon: FaIcon(FontAwesomeIcons.user),
-                        text: "Use email & password",
+                        text: "이메일로 가입",
                       ),
                     ),
                     Gaps.v16,
@@ -85,7 +85,7 @@ class SignUpScreen extends ConsumerWidget {
                           .githubSingIn(context),
                       child: const AuthButton(
                         icon: FaIcon(FontAwesomeIcons.github),
-                        text: "Continue with Github",
+                        text: "Github 계정",
                       ),
                     ),
                   ],

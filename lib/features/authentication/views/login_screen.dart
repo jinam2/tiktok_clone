@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:go_router/go_router.dart';
 import 'package:tiktok_clone/constants/gaps.dart';
 import 'package:tiktok_clone/constants/sizes.dart';
 import 'package:tiktok_clone/features/authentication/view_models/social_auth_view_model.dart';
 import 'package:tiktok_clone/features/authentication/views/login_form_screen.dart';
+import 'package:tiktok_clone/features/authentication/views/sign_up_screen.dart';
 import 'package:tiktok_clone/features/authentication/views/widgets/auth_button.dart';
 import 'package:tiktok_clone/utils.dart';
 
@@ -15,7 +15,12 @@ class LoginScreen extends ConsumerWidget {
   const LoginScreen({super.key});
 
   void _onSignUpTap(BuildContext context) {
-    context.pop();
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (context) => const SignUpScreen(),
+      ),
+    );
   }
 
   void _onEmailLoginTap(BuildContext context) {
@@ -39,7 +44,7 @@ class LoginScreen extends ConsumerWidget {
             children: [
               Gaps.v80,
               const Text(
-                "Log in to TikTok",
+                "키키톡톡 로그인",
                 style: TextStyle(
                   fontSize: Sizes.size24,
                   fontWeight: FontWeight.w700,
@@ -49,7 +54,7 @@ class LoginScreen extends ConsumerWidget {
               const Opacity(
                 opacity: 0.7,
                 child: Text(
-                  "Manage your account, check notifications, comment on videos, and more.",
+                  "계졍관리, 알림체크, 영상에 댓글달기, 그리고...",
                   style: TextStyle(
                     fontSize: Sizes.size16,
                   ),
@@ -61,7 +66,7 @@ class LoginScreen extends ConsumerWidget {
                 onTap: () => _onEmailLoginTap(context),
                 child: const AuthButton(
                   icon: FaIcon(FontAwesomeIcons.user),
-                  text: "Use email & password",
+                  text: "메일계정",
                 ),
               ),
               Gaps.v16,
@@ -70,7 +75,7 @@ class LoginScreen extends ConsumerWidget {
                     ref.read(socialAuthProvider.notifier).githubSingIn(context),
                 child: const AuthButton(
                   icon: FaIcon(FontAwesomeIcons.github),
-                  text: "Continue with Github",
+                  text: "Github",
                 ),
               ),
             ],
@@ -90,7 +95,7 @@ class LoginScreen extends ConsumerWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               const Text(
-                "Don't have an account?",
+                "아직 계정이 업시유~ ?",
                 style: TextStyle(
                   fontSize: Sizes.size16,
                 ),
