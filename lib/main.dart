@@ -47,7 +47,7 @@ class TikTokApp extends ConsumerWidget {
     return MaterialApp.router(
       routerConfig: ref.watch(routerProvider),
       debugShowCheckedModeBanner: false,
-      title: 'TikTok Clone',
+      title: '키키틱톡',
       localizationsDelegates: const [
         S.delegate,
         GlobalWidgetsLocalizations.delegate,

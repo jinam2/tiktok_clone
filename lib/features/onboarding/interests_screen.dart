@@ -101,7 +101,7 @@ class _InterestsScreenState extends State<InterestsScreen> {
         title: AnimatedOpacity(
           opacity: _showTitle ? 1 : 0,
           duration: const Duration(milliseconds: 300),
-          child: const Text("Choose your interests"),
+          child: const Text("흥미 있는 것들을 선택하세요"),
         ),
       ),
       body: Scrollbar(
@@ -119,7 +119,7 @@ class _InterestsScreenState extends State<InterestsScreen> {
               children: [
                 Gaps.v32,
                 const Text(
-                  "Choose your interests",
+                  "내가 좋아하는것들",
                   style: TextStyle(
                     fontSize: Sizes.size40,
                     fontWeight: FontWeight.bold,
@@ -127,7 +127,7 @@ class _InterestsScreenState extends State<InterestsScreen> {
                 ),
                 Gaps.v20,
                 const Text(
-                  "Get better video recommendations",
+                  "좋아하는 것들 찾아줄게",
                   style: TextStyle(
                     fontSize: Sizes.size20,
                   ),

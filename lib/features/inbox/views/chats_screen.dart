@@ -61,9 +61,9 @@ class _ChatsScreenState extends State<ChatsScreen> {
       leading: const CircleAvatar(
         radius: 30,
         foregroundImage: NetworkImage(
-          "https://avatars.githubusercontent.com/u/3612017",
+          "https://avatars.githubusercontent.com/u/74909221?v=4",
         ),
-        child: Text('니꼬'),
+        child: Text('지남이'),
       ),
       title: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,

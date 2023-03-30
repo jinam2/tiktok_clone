@@ -44,7 +44,7 @@ class LoginScreen extends ConsumerWidget {
             children: [
               Gaps.v80,
               const Text(
-                "키키톡톡 로그인",
+                "키키틱톡 로그인",
                 style: TextStyle(
                   fontSize: Sizes.size24,
                   fontWeight: FontWeight.w700,

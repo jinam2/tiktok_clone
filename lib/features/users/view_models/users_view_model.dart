@@ -37,7 +37,7 @@ class UsersViewModel extends AsyncNotifier<UserProfileModel> {
       link: "undefined",
       email: credential.user!.email ?? "anon@anon.com",
       uid: credential.user!.uid,
-      name: credential.user!.displayName ?? "Anon",
+      name: credential.user!.displayName ?? "Jinam",
     );
     await _usersRepository.createProfile(profile);
     state = AsyncValue.data(profile);

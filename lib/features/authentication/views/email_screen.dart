@@ -77,7 +77,7 @@ class _EmailScreenState extends ConsumerState<EmailScreen> {
       child: Scaffold(
         appBar: AppBar(
           title: const Text(
-            "Sign up",
+            "회원가입",
           ),
         ),
         body: Padding(
@@ -89,7 +89,7 @@ class _EmailScreenState extends ConsumerState<EmailScreen> {
             children: [
               Gaps.v40,
               Text(
-                "What is your email, ${widget.username}?",
+                "이메일을 적어유~, ${widget.username}?",
                 style: const TextStyle(
                   fontSize: Sizes.size24,
                   fontWeight: FontWeight.w700,

@@ -115,7 +115,7 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
                     ),
                     Gaps.v10,
                     const Text(
-                      "This is a very long caption for my tiktok that im upload just now currently.",
+                      "키키틱톡에서 업로드된 따끈따끈한 라면의 긴 면빨처럼 매우 긴 메시지",
                       overflow: TextOverflow.ellipsis,
                       maxLines: 2,
                       style: TextStyle(
@@ -138,13 +138,13 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
                           const CircleAvatar(
                             radius: 12,
                             backgroundImage: NetworkImage(
-                              "https://avatars.githubusercontent.com/u/3612017",
+                              "",
                             ),
                           ),
                           Gaps.h4,
                           const Expanded(
                             child: Text(
-                              "My avatar is going to be very long",
+                              "내 아바타도 내 꿈처럼 커질거야",
                               maxLines: 1,
                               overflow: TextOverflow.ellipsis,
                             ),

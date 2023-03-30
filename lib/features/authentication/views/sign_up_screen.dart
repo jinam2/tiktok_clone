@@ -59,11 +59,12 @@ class SignUpScreen extends ConsumerWidget {
                     ),
                   ),
                   Gaps.v20,
-                  Opacity(
+                  const Opacity(
                     opacity: 0.7,
                     child: Text(
-                      S.of(context).signUpSubtitle(19687),
-                      style: const TextStyle(
+                      "프로필 만들고 친구등록, 영상만들고 또또~",
+                      //S.of(context).signUpSubtitle(19687),
+                      style: TextStyle(
                         fontSize: Sizes.size16,
                       ),
                       textAlign: TextAlign.center,

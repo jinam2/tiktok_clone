@@ -44,7 +44,7 @@ class _BirthdayScreenState extends ConsumerState<BirthdayScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          "Sign up",
+          "회원가입",
         ),
       ),
       body: Padding(
@@ -56,7 +56,7 @@ class _BirthdayScreenState extends ConsumerState<BirthdayScreen> {
           children: [
             Gaps.v40,
             const Text(
-              "When's your birthday?",
+              "생일은 언제~?",
               style: TextStyle(
                 fontSize: Sizes.size24,
                 fontWeight: FontWeight.w700,
@@ -64,7 +64,7 @@ class _BirthdayScreenState extends ConsumerState<BirthdayScreen> {
             ),
             Gaps.v8,
             const Text(
-              "Your birthday won't be shown publicly.",
+              "남에게 보이지 않아요.",
               style: TextStyle(
                 fontSize: Sizes.size16,
                 color: Colors.black54,

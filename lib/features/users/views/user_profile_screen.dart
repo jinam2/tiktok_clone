@@ -193,7 +193,7 @@ class _UserProfileScreenState extends ConsumerState<UserProfileScreen> {
                                 horizontal: Sizes.size32,
                               ),
                               child: Text(
-                                "All highlights and where to watch live matches on FIFA+ I wonder how it would loook",
+                                "모든 것들이 gonna be fine~!!! 홧팅~!!!",
                                 textAlign: TextAlign.center,
                               ),
                             ),
@@ -207,7 +207,7 @@ class _UserProfileScreenState extends ConsumerState<UserProfileScreen> {
                                 ),
                                 Gaps.h4,
                                 Text(
-                                  "https://nomadcoders.co",
+                                  "https://keybase.co.kr",
                                   style: TextStyle(
                                     fontWeight: FontWeight.w600,
                                   ),

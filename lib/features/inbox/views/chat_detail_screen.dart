@@ -45,12 +45,12 @@ class _ChatDetailScreenState extends ConsumerState<ChatDetailScreen> {
           leading: const CircleAvatar(
             radius: Sizes.size24,
             foregroundImage: NetworkImage(
-              "https://avatars.githubusercontent.com/u/3612017",
+              "https://avatars.githubusercontent.com/u/74909221?v=4",
             ),
-            child: Text('니꼬'),
+            child: Text('지남이'),
           ),
           title: Text(
-            '니꼬 (${widget.chatId})',
+            '지남이 (${widget.chatId})',
             style: const TextStyle(
               fontWeight: FontWeight.w600,
             ),

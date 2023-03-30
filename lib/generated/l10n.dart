@@ -100,10 +100,10 @@ class S {
     );
   }
 
-  /// `Already have an account?`
+  /// `이미 계정이 있시유?`
   String get alreadyHaveAnAccount {
     return Intl.message(
-      'Already have an account?',
+      '이미 계정이 있시유?',
       name: 'alreadyHaveAnAccount',
       desc: '',
       args: [],
